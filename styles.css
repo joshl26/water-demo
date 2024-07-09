@@ -1,0 +1,194 @@
+body {
+  width: 960px;
+  height: 580px;
+  background-color: #f5ca99;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.tap {
+  position: absolute;
+}
+.text-1 {
+  position: absolute;
+  top: 5%;
+  width: 70%;
+  left: 15%;
+  font-family: pangolin;
+  font-size: 20px;
+}
+.text-1a {
+  top: 5%;
+}
+
+.open-btn {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1% 2% 0% 2%;
+  font-size: 20px;
+  color: #4897d8;
+  background-color: #eeeeee;
+  border-radius: 2vmin;
+  border: 0.5vmin solid #ffcd53;
+}
+.open-btn:hover {
+  cursor: pointer;
+  filter: brightness(125%) contrast(125%);
+  -webkit-filter: brightness(125%) contrast(125%);
+}
+
+svg {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.slide-from-left {
+  animation: slide-from-left 1s ease-in 2s both;
+  -webkit-animation: slide-from-left 1s ease-in 2s both;
+}
+@-webkit-keyframes slide-from-left {
+  0% {
+    left: -20%;
+  }
+}
+@keyframes slide-from-left {
+  0% {
+    left: -20%;
+  }
+}
+.slide-from-right {
+  animation: slide-from-right 1s ease-in 2s both;
+  -webkit-animation: slide-from-right 1s ease-in 2s both;
+}
+@-webkit-keyframes slide-from-right {
+  0% {
+    right: -25%;
+  }
+}
+@keyframes slide-from-right {
+  0% {
+    right: -25%;
+  }
+}
+.slide-from-bottom {
+  animation: slide-from-bottom 1s ease-in 2s both;
+  -webkit-animation: slide-from-bottom 1s ease-in 2s both;
+}
+@-webkit-keyframes slide-from-bottom {
+  0% {
+    bottom: -30%;
+  }
+}
+@keyframes slide-from-bottom {
+  0% {
+    bottom: -30%;
+  }
+}
+
+.tap {
+  z-index: 15;
+  position: absolute;
+  width: 10%;
+}
+#bucket-svg,
+.bucket-1 {
+  position: absolute;
+  bottom: 5%;
+  left: 68%;
+  height: 35%;
+  width: 21.3%;
+}
+#glass-svg,
+.glass-1 {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  height: 20%;
+  width: 7.5%;
+}
+#pot-svg,
+.pot-1 {
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
+  height: 30%;
+  width: 17.5%;
+}
+#bucket-svg,
+#pot-svg,
+#glass-svg {
+  z-index: 20;
+}
+.cap-text {
+  display: none;
+  position: absolute;
+  width: 25%;
+  font-size: 2.7vw;
+  color: black;
+  font-family: sniglet;
+}
+
+@media (min-aspect-ratio: 4/3) {
+  .cap-text {
+    font-size: 3.6vh;
+  }
+}
+
+.tap-1 {
+  left: 13%;
+  bottom: 32%;
+}
+.ct-1 {
+  left: 4%;
+  bottom: 47%;
+}
+
+.tap-2 {
+  left: 42%;
+  bottom: 35%;
+}
+.ct-2 {
+  left: 33%;
+  bottom: 50%;
+}
+.tap-3 {
+  left: 77%;
+  bottom: 50%;
+}
+.ct-3 {
+  left: 70%;
+  bottom: 65%;
+}
+
+#water-1 {
+  position: absolute;
+  top: 65%;
+  width: 4%;
+  height: 28%;
+  left: 11.5%;
+}
+#water-2 {
+  position: absolute;
+  top: 62%;
+  width: 4%;
+  height: 31%;
+  left: 40.5%;
+}
+#water-3 {
+  position: absolute;
+  top: 48%;
+  width: 4%;
+  height: 46%;
+  left: 75.5%;
+}
+
+.bg-2 {
+  background-color: #d09683;
+}
